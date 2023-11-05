@@ -20,7 +20,7 @@ function App() {
   const handleClick = async () => {
 
     setLoading(true);
-    const updatedPrompt2 = 'Generar una tabla en html de una matriz de consistencia tomando en cuenta "Problemas general y especificos", "objetivos general y especificos" , "hipotisis general y especificos", "variables","dimensiones" , "indicadores", y por separado en la ultima fita "diseño metodologico" como tipo te estudio, enfoque, diseño, tipo de diseño , poblacion y muestra de las siguientes variables:' + var1 + ' y ' + var2;
+    const updatedPrompt2 = 'Generar una tabla en html borde 1 de una matriz de consistencia tomando en cuenta "Problemas general y especificos", "objetivos general y especificos" , "hipotisis general y especificos", "variables","dimensiones" , "indicadores", y por separado en la ultima fita "diseño metodologico" como tipo te estudio, enfoque, diseño, tipo de diseño , poblacion y muestra de las siguientes variables:' + var1 + ' y ' + var2;
 
     try {
       const response = openAI.createCompletion({
