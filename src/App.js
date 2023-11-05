@@ -20,7 +20,7 @@ function App() {
   const handleClick = async () => {
 
     setLoading(true);
-    const updatedPrompt2 = 'De las siguientes variables ; Variable 1:' + var1 + ' y variable 2: ' + var2;', Generar una tabla   de una matriz de consistencia tomando en cuenta " Problema general y especificos", "objetivos general y especificos" , " hipotisis general y especificos", "variables","dimensiones" , "indicadores", y  "diseño metodologico" como tipo te estudio, enfoque, diseño, tipo de diseño , poblacion y muestra.' ;
+    const updatedPrompt2 = 'De las siguientes variables ; Variable 1:' + var1 + ' y variable 2: ' + var2;', Generar una tabla en html de una matriz de consistencia tomando en cuenta " Problema general y especificos", "objetivos general y especificos" , " hipotisis general y especificos", "variables","dimensiones"  , "indicadores", y  "diseño metodologico" considerar tipo te estudio, enfoque, diseño, tipo de diseño , poblacion y muestra' ;
 
     try {
       const response = openAI.createCompletion({
